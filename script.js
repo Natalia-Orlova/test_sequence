@@ -86,7 +86,7 @@
 
 
 let imgsLen = 8,
-  imgsPath = "img/",
+  imgsPath = "/img/",
   el = document.querySelector("#scroll-model"),
   content = document.querySelector(".content"),
   scrollIcon = document.querySelector(".scroll-icon"),
