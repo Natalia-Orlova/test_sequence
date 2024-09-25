@@ -86,7 +86,7 @@
 
 
 let imgsLen = 8,
-  imgsPath = "/img/",
+  imgsPath = "img/",
   el = document.querySelector("#scroll-model"),
   content = document.querySelector(".content"),
   scrollIcon = document.querySelector(".scroll-icon"),
@@ -96,7 +96,7 @@ let imgsLen = 8,
 
 function CreateImages() {
   for (let i = 0; i < imgsLen; i++) {
-    el.insertAdjacentHTML("beforeend", `<img src="${imgsPath}${i + 1}.webp"/>`);
+    el.insertAdjacentHTML("beforeend", `<img src="${imgsPath}${i + 1}.png"/>`);
   }
   imgs = el.querySelectorAll("img");
   imgs.forEach((img) => (img.style.opacity = "0")); // Скрываем все изображения с помощью opacity
