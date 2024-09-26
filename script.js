@@ -92,7 +92,7 @@ let imgsLen = 8,
   scrollIcon = document.querySelector(".scroll-icon"),
   imgs = false,
   imgsCur = 0,
-  step = 7;
+  step = 1;
 
 function CreateImages() {
   for (let i = 0; i < imgsLen; i++) {
