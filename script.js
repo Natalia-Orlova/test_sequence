@@ -135,14 +135,10 @@ function RotateScroll() {
     // Проверяем, достиг ли пользователь блока с классом content
     if (window.scrollY + window.innerHeight >= content.offsetTop) {
       el.style.position = "absolute";
-      el.style.top = "25%";
-      el.style.left = "55%";
-      el.style.transform = "translateX(-55%)";
+      // el.style.top = "25%";
     } else {
       el.style.position = "fixed";
-      el.style.top = "0";
-      el.style.left = "0";
-      el.style.transform = "none";
+      // el.style.top = "0";
     }
 
     ticking = false;
